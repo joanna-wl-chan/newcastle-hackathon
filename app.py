@@ -22,7 +22,7 @@ def donate():
 def success():
 	return render_template('success.html')
 
-@app.route('/townsville_flood2')
+@app.route('/townsville_flood2.html')
 def t2():
 	return render_template('townsville_flood2.html');
 
