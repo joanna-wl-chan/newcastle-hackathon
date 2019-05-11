@@ -33,6 +33,36 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      .blockUnfinished {
+        height: 150px;
+        width: 300px;
+        border-radius: 20px;
+        background-color: #58A8F6;
+        /*box-shadow: 10px 10px 8px #888888;*/
+        float: left;
+        box-sizing:border-box;
+        font-size: 15px;
+        padding: 10px;
+        text-align: left;
+        margin-top: 10px;
+      }
+      .blockFinished {
+        text-align: left;
+        font-size: 15px;
+        height: 150px;
+        width: 300px;
+        float: left;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #6271FF;
+        /*box-shadow: 10px 10px 8px #888888;*/
+        margin-left:50px;
+        box-sizing:border-box;
+                margin-top: 10px;
+
+      }
+    </style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Navigation
@@ -344,6 +374,56 @@
     </div>
   </div>
 </div>
+
+<div id="team">
+    <div class="container"> 
+    <div class="section-title" style="text-align: center">
+      <h2>Blockchain Visualisation</h2>
+    </div>
+    <div class="row" style="color: white"> 
+  <div class="blockFinished" >
+    Disaster: Townsville Flood<br>
+    Threshold: 2000 Charity: Red Cross<br>
+    Donator: AnonCat, Amount: 1000<br>
+    Donator: AnonBadger, Amount: 500<br>
+    Donator: AnonPanda, Amount: 100<br>
+    Donator: AnonCat, Amount: 100<br>
+  </div>
+  <div class="blockFinished" style="margin-left:30px">
+    Donator: AnonDingo, Amount: 300<br>
+    Sent: 2000 to Red Cross<br>
+    Donator: AnonCat, Amount: 1000<br>
+    Donator: AnonAlligator, Amount: 500<br>
+    Donator: AnonLion, Amount: 250<br>
+  </div>
+  <div class="blockUnfinished" style="margin-left:30px">
+    Donator: AnonBadger, Amount: 250<br>
+  </div>
+  </div>
+</div>
+</div>
+<div id="testimonials">
+  <div class="container">
+    <div class="section-title" style="text-align: center">
+      <h2>Search Transactions</h2>
+    </div>
+  <div class="row" style="margin-top: 5px">
+    <div style="padding-left: 25px">
+      <p style="font-size: 25px; text-align: left">
+    Search for a donator or charity: <input type="text" style="font-size: 25px; padding-left: 5px; margin-left: 15px" value="AnonCat"><br>
+    </p>
+    <div style="padding-top : 25px">
+    <p style="font-size: 20px;  text-align: left">
+    Donator: AnonCat, Amount: 1000<br>
+    Donator: AnonCat, Amount: 100<br>
+    Donator: AnonCat, Amount: 1000<br>
+    </p>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+
 <!-- Contact Section -->
 <div id="contact">
   <div class="container">
@@ -403,13 +483,14 @@
       </div>
     </div>
   </div>
-</div>
+
 <!-- Footer Section -->
 <div id="footer">
   <div class="container text-center">
     <p>&copy; 2017 Interact. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
   </div>
 </div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>

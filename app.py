@@ -11,7 +11,7 @@ def profile_page():
 
 @app.route('/townsville_flood')
 def disaster_townsville():
-	return render_template('townsville.html');
+	return render_template('townsville_flood.html');
 
 @app.route('/donate')
 def donate():
