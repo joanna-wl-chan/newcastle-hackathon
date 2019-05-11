@@ -5,7 +5,7 @@ app = Flask(__name__)
 def index_page():
 	return render_template('index.html');
 
-@app.route('/profile_page')
+@app.route('/profile')
 def profile_page():
 	return render_template('profile.html');
 
